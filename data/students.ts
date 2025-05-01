@@ -1,5 +1,4 @@
 export interface Student {
-  id: string
   name: string
   class: string
   dob: string
@@ -21,11 +20,10 @@ const getRandomAvatar = (gender: "male" | "female") => {
 
 export const students: Student[] = [
   {
-    id: "STU001",
     name: "Albertina Einstein",
-    class: "10th Grade",
+    class: "Q7",
     dob: "2008-05-12",
-    gender: "male",
+    gender: "female",
     avatar: getRandomAvatar("female"),
   },
 ]
